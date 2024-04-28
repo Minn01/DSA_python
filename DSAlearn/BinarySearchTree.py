@@ -97,4 +97,5 @@ bTree.display()
 
 print(bTree.search(-1))
 bTree.remove(7)
+bTree.insert(11)
 bTree.display()
