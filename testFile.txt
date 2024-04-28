@@ -1,0 +1,6 @@
+strength 99
+agility 98
+intelligence 23
+wisdom 2
+dexterity 99
+luck 1000
