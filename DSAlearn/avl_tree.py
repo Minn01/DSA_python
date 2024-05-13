@@ -178,19 +178,3 @@ b1.insert_many(10, 5, 15, 3, 7, 12, 20, 1, 4, 6, 9, 11, 14, 18, 25)
 b1.printTree()
 b1.remove_many(7, 15, 5, 10, 18, 1, 20)
 b1.printTree()
-
-
-# # Left-Left Case
-        # if balance > 1 and data < root.left.data:
-        #     return self.rotate_right(root)
-        # # Right-Right Case
-        # if balance < -1 and data > root.right.data:
-        #     return self.rotate_left(root)
-        # # Left-Right Case
-        # if balance > 1 and data > root.left.data:
-        #     root.left = self.rotate_left(root.left)
-        #     return self.rotate_right(root)
-        # # Right-Left Case
-        # if balance < -1 and data < root.right.data:
-        #     root.right = self.rotate_right(root.right)
-        #     return self.rotate_left(root)
